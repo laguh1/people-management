@@ -1,0 +1,37 @@
+# Reproduction guide (personal documentation)
+REPRODUCTION_GUIDE.md
+
+# Sensitive HR data (NEVER commit)
+2025/
+
+# IDE and system files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Credentials
+.env
+.github_token
+*.key
+*.pem
+confluence.properties
+credentials
+
+# OS files
+Thumbs.db
