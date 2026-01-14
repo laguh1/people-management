@@ -1,0 +1,35 @@
+# People Management - Optional Dependencies
+
+# This project is primarily a coordination and documentation toolkit.
+# It integrates with existing tools rather than requiring separate dependencies.
+
+# External Tools Required (install separately):
+# - document-cruncher: ~/Projects/claude/document-cruncher
+# - github-muncher: ~/Projects/claude/github-muncher
+# - foundations-features-documentation: ~/Projects/claude/foundations-features-documentation
+
+# Optional: For custom automation scripts (if needed)
+# Uncomment and install only if building additional Python automation
+
+# Data Processing
+# pandas>=2.3.3
+# python-dateutil>=2.9.0.post0
+
+# File Operations
+# python-dotenv>=1.2.1
+
+# Markdown Processing
+# markdown>=3.5.0
+
+# Note: The github_tracking/ folder has its own requirements.txt
+# but that functionality is deprecated. Use github-muncher instead.
+
+# Installation:
+# pip install -r requirements.txt (only if building custom scripts)
+
+# Primary Usage:
+# This project uses CLI commands from external tools:
+# - document-cruncher extract-pdf [file]
+# - document-cruncher extract-excel [file] --employee "Name"
+# - github-muncher generate-report --engineer "Name" --period eoy_2025
+# - python confluence_manager.py create [args]
